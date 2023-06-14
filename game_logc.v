@@ -10,8 +10,6 @@ end
 
 reg [3:0] x_buff;
 reg [3:0] y_buff;
-reg [3:0] x_cord;
-reg [3:0] y_cord;
 reg [1:0} pos_check[9:0][9:0]}; //info of a position in 2d array , 0x empty, 10 triangle, 11 circle
 
 //serial input into buffer variables
